@@ -1,5 +1,5 @@
 
-´´´
+``` bash
 [32m[INFO][0m Iniciando importação com CsvHelper do arquivo 'steam-games.csv'...
 [1;32m[SUCESSO] 58.472 jogos importados com sucesso![0m
 
