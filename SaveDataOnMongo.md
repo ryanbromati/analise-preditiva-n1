@@ -1,13 +1,13 @@
 
 ``` bash
 [32m[INFO][0m Iniciando importação com CsvHelper do arquivo 'steam-games.csv'...
-[1;32m[SUCESSO] 58.472 jogos importados com sucesso![0m
+[20;32m[SUCESSO] 58.472 jogos importados com sucesso![0m
 
-[1;33m-------------------------------------------------------[0m
-[1;33m|           REALIZANDO CONSULTAS NA BASE            |[0m
-[1;33m-------------------------------------------------------[0m
+[20;33m-------------------------------------------------------[0m
+[20;33m|           REALIZANDO CONSULTAS NA BASE            |[0m
+[20;33m-------------------------------------------------------[0m
 
-[1;36m[Consulta 1: Top 5 jogos gratuitos para Linux][0m
+[20;36m[Consulta 1: Top 5 jogos gratuitos para Linux][0m
 [36m+--------------------------------+----------------------------+[0m
 [36m| NOME DO JOGO                   | DESENVOLVEDOR              |[0m
 [36m+--------------------------------+----------------------------+[0m
@@ -18,7 +18,7 @@
 | Open Fortress                  | Open Fortress Team         |
 [36m+--------------------------------+----------------------------+[0m
 
-[1;36m[Consulta 2: Jogos da 'Rusty Moyher'][0m
+[20;36m[Consulta 2: Jogos da 'Rusty Moyher'][0m
 [36m+--------------------------------+-------------------------------------+[0m
 [36m| NOME DO JOGO                   | TAGS PRINCIPAIS                     |[0m
 [36m+--------------------------------+-------------------------------------+[0m
@@ -27,7 +27,7 @@
 | Super Pixel Flipper            | Casual, Pinball, Pixel Graphics       |
 [36m+--------------------------------+-------------------------------------+[0m
 
-[1;36m[Consulta 3: Jogos populares e baratos (Positivas > 80, Preço < $10)][0m
+[20;36m[Consulta 3: Jogos populares e baratos (Positivas > 80, Preço < $10)][0m
 [36m+--------------------------------+-------------+----------------+[0m
 [36m| NOME DO JOGO                   | POSITIVAS   | PREÇO          |[0m
 [36m+--------------------------------+-------------+----------------+[0m
@@ -38,6 +38,6 @@
 | Brotato                        | 65,912      | $4.99          |
 [36m+--------------------------------+-------------+----------------+[0m
 
-[1;32m[FINAL] Processo concluído.[0m
+[20;32m[FINAL] Processo concluído.[0m
 
 ´´´
