@@ -18,8 +18,8 @@ O mais indicado seria um **Banco de Dados Orientado a Documentos** (ex.: **Mongo
 ```json
 {
   "_id": "u123",
-  "nome": "João Silva",
-  "email": "joao@email.com",
+  "nome": "Arnaldo Pereira",
+  "email": "ogradearnaldo@email.com",
   "historico_consumo": [
     {
       "video_id": "v456",
@@ -33,9 +33,9 @@ O mais indicado seria um **Banco de Dados Orientado a Documentos** (ex.: **Mongo
 ```json
 {
   "_id": "v456",
-  "titulo": "Introdução a Bancos NoSQL",
-  "descricao": "Aula sobre conceitos de NoSQL",
-  "url_stream": "https://servidor/videos/intro-nosql",
+  "titulo": "Introducao a AWS",
+  "descricao": "Aula sobre conceitos de Cloud AWS",
+  "url_stream": "https://servidor/videos/intro-aws",
   "categorias": ["Educação", "Tecnologia"]
 }
 ```
