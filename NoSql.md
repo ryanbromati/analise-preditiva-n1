@@ -7,7 +7,7 @@ Usuários cadastrados podem consumir arquivos de **streaming (vídeos)**, os qua
 Também é necessário armazenar o **histórico de consumo** de cada cliente.
 
 ### Tipo de Banco de Dados NoSQL recomendado
-O mais indicado seria um **Banco de Dados Orientado a Documentos** (ex.: **MongoDB**), pois:
+O mais indicado seria um **Banco de Dados Orientado a Documentos** ideal é o Mongo, pois:
 - Permite armazenar informações de usuários, vídeos e categorias em documentos JSON flexíveis.
 - Facilita consultas por categorias, usuários e histórico.
 - Suporta escalabilidade horizontal, essencial para aplicações de streaming.
