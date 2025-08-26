@@ -82,10 +82,3 @@ erDiagram
     VIDEOS ||--o{ HISTORICO_CONSUMO : "registrado_em"
     VIDEOS ||--o{ CATEGORIAS : "classificado_em"
 ```
-
-Esse diagrama mostra:  
-- Usuários possuem histórico de consumo.  
-- Vídeos aparecem no histórico.  
-- Vídeos pertencem a uma ou mais categorias.  
-
-Quer que eu adapte esse esquema para **banco de grafos (Neo4j)** também, já que o caso de uso de recomendações poderia se beneficiar disso?
