@@ -10,9 +10,6 @@ using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Driver;
 using System.Globalization;
 
-// =================================================================================
-// MODELO DE DADOS
-// =================================================================================
 public record class SteamGame(
     int AppID,
     string Name,
@@ -36,9 +33,6 @@ public record class SteamGame(
     public string? Id { get; set; }
 }
 
-// =================================================================================
-// MAPEAMENTO PARA CSVHELPER
-// =================================================================================
 public sealed class SteamGameMap : ClassMap<SteamGame>
 {
     public SteamGameMap()
@@ -62,9 +56,6 @@ public sealed class SteamGameMap : ClassMap<SteamGame>
 }
 
 
-// =================================================================================
-// LÓGICA PRINCIPAL E MÉTODOS
-// =================================================================================
 const string ConnectionString = "xxx";
 const string DatabaseName = "SteamDB";
 const string CollectionName = "Games";
